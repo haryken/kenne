@@ -22,11 +22,11 @@ module.exports = {
   jwt_expired_date: process.env.JWT_EXPIRED_DATE || '30d',
   root_path: rootPath,
   database: {
-    username: process.env.DB_USERNAME,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_DATABASE,
-    host: process.env.DB_HOST,
-    dialect: process.env.DB_CONNECTION,
+    username: 'afitynvyieawdr',
+    password: '17ed230aa14dc36c69baf2a5cb4883ac2dc114cdf4ae6948b4e0bc6b7c739ed2',
+    database: 'd1sfkjln5dlhgo',
+    host: 'ec2-3-223-169-166.compute-1.amazonaws.com',
+    dialect: 'postgres',
   },
   database_test: {
     storage: process.env.DB_STORAGE,
