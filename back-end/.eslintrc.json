@@ -1,0 +1,14 @@
+{
+  "extends": ["airbnb", "prettier","plugin:jest/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
+    "import/prefer-default-export": "off",
+    "no-use-before-define": ["error", { "functions": false, "classes": false }]
+  }
+}
