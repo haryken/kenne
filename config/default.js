@@ -27,7 +27,13 @@ module.exports = {
     database: 'd1sfkjln5dlhgo',
     host: 'ec2-3-223-169-166.compute-1.amazonaws.com',
     dialect: 'postgres',
-	ssl: true,
+	dialectOptions: {
+		ssl: {
+			require: true,
+			rejectUnauthorized: false
+		}
+	},
+	port: 5432,
   },
   database_test: {
     storage: process.env.DB_STORAGE,
