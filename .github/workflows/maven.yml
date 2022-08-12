@@ -7,11 +7,11 @@ on:
   push:
     branches:
     - main
-    - 'frontend**'
+    - frontend
   pull_request:
     branches:
     - main
-    - 'frontend**'
+    - frontend
 
 jobs:
   build:
