@@ -25,7 +25,7 @@ public class LoginSteps extends AbstractStep implements En {
 
     public LoginSteps() {
         Given("^the user is on the login page$", () -> {
-            loginPage.open("https://managementassetonline.herokuapp.com/");
+            loginPage.open("https://managementassetonlines.herokuapp.com/");
         });
 
         When("^the user logins with account$", (DataTable dataTable) -> {
