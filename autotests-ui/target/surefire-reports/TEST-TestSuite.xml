@@ -5,7 +5,7 @@
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_333\jre\bin"/>
     <property name="java.vm.version" value="25.333-b02"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\haryk\OneDrive\Máy tính\DACNTT-test-main\autotests-ui"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\haryk\OneDrive\Máy tính\github-DACNTT\kenne"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\haryk\OneDrive\Máy tính\DACNTT-test-main\autotests-ui"/>
+    <property name="user.dir" value="C:\Users\haryk\OneDrive\Máy tính\github-DACNTT\kenne"/>
     <property name="java.runtime.version" value="1.8.0_333-b02"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_333\jre\lib\endorsed"/>
@@ -29,7 +29,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\install\apache-maven-3.8.6\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_333\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\application\git\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\haryk\Downloads\apache-cassandra-3.11.8\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\install\apache-maven-3.8.6\bin;C:\Users\haryk\Downloads\apache-cassandra-3.11.8\bin;C:\Program Files\Java\jdk1.8.0_333\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\application\git\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\haryk\Downloads\apache-cassandra-3.11.8\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\install\apache-maven-3.8.6\bin;C:\Users\haryk\Downloads\apache-cassandra-3.11.8\bin;C:\Program Files\Java\jdk1.8.0_333\bin;;c:\wp-cli;C:\Users\haryk\AppData\Roaming\Composer\vendor\bin;C:\phpunit;C:\xampp\php;F:\application\Microsoft VS Code\Microsoft VS Code\bin;C:\Users\haryk\AppData\Roaming\npm;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_333\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\application\git\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\haryk\Downloads\apache-cassandra-3.11.8\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\install\apache-maven-3.8.6\bin;C:\Users\haryk\Downloads\apache-cassandra-3.11.8\bin;C:\Program Files\Java\jdk1.8.0_333\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\application\git\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\haryk\Downloads\apache-cassandra-3.11.8\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\install\apache-maven-3.8.6\bin;C:\Users\haryk\Downloads\apache-cassandra-3.11.8\bin;C:\Program Files\Java\jdk1.8.0_333\bin;;c:\wp-cli;C:\Users\haryk\AppData\Roaming\Composer\vendor\bin;C:\phpunit;C:\xampp\php;F:\application\Microsoft VS Code\Microsoft VS Code\bin;C:\Users\haryk\AppData\Roaming\npm;;."/>
     <property name="maven.conf" value="C:\install\apache-maven-3.8.6/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
