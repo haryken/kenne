@@ -1,0 +1,172 @@
+# Created at 2022-07-19T14:56:14.662
+Exiting self fork JVM. Received SHUTDOWN command from Maven shutdown hook.
+Thread dump before exiting the process (21576@DESKTOP-V1F92J5):
+"Exec Stream Pumper" 
+   java.lang.Thread.State: RUNNABLE
+        at java.io.FileInputStream.readBytes(Native Method)
+        at java.io.FileInputStream.read(FileInputStream.java:233)
+        at org.apache.commons.exec.StreamPumper.run(StreamPumper.java:107)
+        at java.lang.Thread.run(Thread.java:750)
+
+"Exec Stream Pumper" 
+   java.lang.Thread.State: RUNNABLE
+        at java.io.FileInputStream.readBytes(Native Method)
+        at java.io.FileInputStream.read(FileInputStream.java:255)
+        at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+        at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
+        at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
+        at java.io.FilterInputStream.read(FilterInputStream.java:107)
+        at org.apache.commons.exec.StreamPumper.run(StreamPumper.java:107)
+        at java.lang.Thread.run(Thread.java:750)
+
+"Exec Default Executor" 
+   java.lang.Thread.State: RUNNABLE
+        at java.lang.ProcessImpl.waitForInterruptibly(Native Method)
+        at java.lang.ProcessImpl.waitFor(ProcessImpl.java:516)
+        at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:364)
+        at org.apache.commons.exec.DefaultExecutor.access$200(DefaultExecutor.java:48)
+        at org.apache.commons.exec.DefaultExecutor$1.run(DefaultExecutor.java:200)
+        at java.lang.Thread.run(Thread.java:750)
+
+"Okio Watchdog" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.lang.Object.wait(Native Method)
+        at java.lang.Object.wait(Object.java:460)
+        at okio.AsyncTimeout.awaitTimeout(AsyncTimeout.java:361)
+        at okio.AsyncTimeout$Watchdog.run(AsyncTimeout.java:312)
+
+"OkHttp ConnectionPool" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.lang.Object.wait(Native Method)
+        at java.lang.Object.wait(Object.java:460)
+        at okhttp3.ConnectionPool$1.run(ConnectionPool.java:67)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:750)
+
+"UrlChecker-2" 
+   java.lang.Thread.State: TIMED_WAITING
+        at sun.misc.Unsafe.park(Native Method)
+        at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+        at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+        at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+        at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+        at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1073)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:750)
+
+"TestNG-PoolService-0" 
+   java.lang.Thread.State: TIMED_WAITING
+        at java.lang.Thread.sleep(Native Method)
+        at org.openqa.selenium.support.ui.Sleeper.lambda$static$0(Sleeper.java:27)
+        at org.openqa.selenium.support.ui.Sleeper$$Lambda$369/1275689268.sleep(Unknown Source)
+        at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:276)
+        at com.oam.pages.BasePage.waitElementToBeClickable(BasePage.java:112)
+        at com.oam.pages.BasePage.clickElement(BasePage.java:53)
+        at com.oam.pages.BasePage.clickElement(BasePage.java:45)
+        at com.oam.pages.BasePage.clickElement(BasePage.java:33)
+        at com.oam.pages.shared.HomePage.clickAssetBtn(HomePage.java:23)
+        at com.oam.stepdefs.shared.HomeSteps.lambda$new$0(HomeSteps.java:19)
+        at com.oam.stepdefs.shared.HomeSteps$$Lambda$157/1535380144.accept(Unknown Source)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at cucumber.runtime.Utils$1.call(Utils.java:26)
+        at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+        at cucumber.runtime.Utils.invoke(Utils.java:20)
+        at cucumber.runtime.java8.Java8StepDefinition.execute(Java8StepDefinition.java:113)
+        at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+        at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+        at cucumber.runner.TestStep.run(TestStep.java:50)
+        at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+        at cucumber.runner.TestCase.run(TestCase.java:46)
+        at cucumber.runner.Runner.runPickle(Runner.java:50)
+        at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:79)
+        at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:24)
+        at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+        at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+        at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+        at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77)
+        at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+        at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+        at java.lang.Thread.run(Thread.java:750)
+
+"surefire-forkedjvm-command-thread" 
+   java.lang.Thread.State: RUNNABLE
+        at sun.management.ThreadImpl.getThreadInfo1(Native Method)
+        at sun.management.ThreadImpl.getThreadInfo(ThreadImpl.java:178)
+        at org.apache.maven.surefire.booter.ForkedBooter.generateThreadDump(ForkedBooter.java:546)
+        at org.apache.maven.surefire.booter.ForkedBooter.access$400(ForkedBooter.java:68)
+        at org.apache.maven.surefire.booter.ForkedBooter$4.update(ForkedBooter.java:295)
+        at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.callListeners(CommandReader.java:467)
+        at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.exitByConfiguration(CommandReader.java:479)
+        at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:432)
+        at java.lang.Thread.run(Thread.java:750)
+
+"Attach Listener" 
+   java.lang.Thread.State: RUNNABLE
+
+"Signal Dispatcher" 
+   java.lang.Thread.State: RUNNABLE
+
+"Finalizer" 
+   java.lang.Thread.State: WAITING
+        at java.lang.Object.wait(Native Method)
+        at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:150)
+        at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:171)
+        at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+"Reference Handler" 
+   java.lang.Thread.State: WAITING
+        at java.lang.Object.wait(Native Method)
+        at java.lang.Object.wait(Object.java:502)
+        at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+        at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+"main" 
+   java.lang.Thread.State: WAITING
+        at sun.misc.Unsafe.park(Native Method)
+        at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+        at java.util.concurrent.FutureTask.awaitDone(FutureTask.java:429)
+        at java.util.concurrent.FutureTask.get(FutureTask.java:191)
+        at org.testng.internal.PoolService.submitTasksAndWait(PoolService.java:52)
+        at org.testng.internal.MethodRunner.runInParallel(MethodRunner.java:128)
+        at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:811)
+        at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+        at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+        at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+        at org.testng.TestRunner$$Lambda$42/438135304.accept(Unknown Source)
+        at java.util.ArrayList.forEach(ArrayList.java:1259)
+        at org.testng.TestRunner.privateRun(TestRunner.java:766)
+        at org.testng.TestRunner.run(TestRunner.java:587)
+        at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+        at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+        at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+        at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+        at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+        at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+        at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+        at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+        at org.testng.TestNG.runSuites(TestNG.java:1039)
+        at org.testng.TestNG.run(TestNG.java:1007)
+        at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+        at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:112)
+        at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+        at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+        at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+        at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+        at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+        at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+
+
+
