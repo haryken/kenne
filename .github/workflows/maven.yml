@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Get code for automain test
     - uses: actions/checkout@v3
       with:
         ACCESS_TOKEN: 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
