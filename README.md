@@ -19,3 +19,4 @@
   - run test using **specified browser**: 
     > mvn clean -Dbrowser="firefox" verify (default is Chrome)
 - **Run by Test runner in IDE**# automation-test
+this is demo
