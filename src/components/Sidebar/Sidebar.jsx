@@ -2,7 +2,7 @@ import React from 'react';
 import { useSelector } from 'react-redux';
 import { NavLink, useLocation } from 'react-router-dom';
 import shortid from 'shortid';
-import logo from '../../assets/nastech_logo.png';
+import logo from '../../assets/logo.png.png';
 import { adminNavList, staffNavList, anonymousNavList } from '../../constants';
 import { validateUserData } from '../../utils';
 import './sidebar.scss';
