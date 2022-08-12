@@ -1,0 +1,45 @@
+#sidebar {
+    .sidebar__header {
+        margin-bottom: 30px;
+
+        img {
+            width: 50%;
+            margin-left: -10px;
+        }
+
+        h4 {
+            color: #CF2338;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+    }
+
+    .sidebar__body {
+
+    }
+
+    .sidebar__list {
+        
+    }
+
+    .sidebar__item {
+        margin-bottom: 5px;
+    }
+
+    .sidebar__link {
+        width: 100%;
+        display: inline-block;
+        padding: 15px 10px;
+        background-color: #EFF1F5;
+        color: #000;
+        transition: all 0.3s ease;
+        font-weight: bold;
+        font-size: 1.1rem;
+
+        &.active,
+        &:hover {
+            background-color: #CF2338;
+            color: #FFF;
+        }
+    }
+}

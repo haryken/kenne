@@ -1,0 +1,27 @@
+#dropdown-togle {
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+#cancel-button {
+    margin-left: 20px;
+}
+#asset-form-container  .dropdown-menu{
+    display: inline-block;
+    width: 100%
+}
+#asset-form-container  .dropdown {
+    width: 100%; 
+    color: white;
+    margin-left: -5px;
+}
+#asset-form-container button {
+    margin-left: 5px;
+}
+.text-area {
+    height: 80px;
+    width: 100%
+}
+.radio-button {
+    margin-left: 10px;
+}

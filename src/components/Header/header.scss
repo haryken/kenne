@@ -1,0 +1,26 @@
+#header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #CF2338;
+
+    .row {
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__title {
+        display: flex;
+        margin-top: 5px;
+
+        h4 {
+            color: #FFF;
+            font-size: 1.1rem;
+
+            &.header-title__arrow {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+ 
+}
