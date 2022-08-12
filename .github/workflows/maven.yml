@@ -3,13 +3,7 @@
 
 name: Java CI with Maven
 
-on:
-  push:
-    branches:
-    - frontend
-  pull_request:
-    branches:
-    - frontend
+on: [push]
 
 jobs:
   build:
