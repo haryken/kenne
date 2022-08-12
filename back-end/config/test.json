@@ -1,9 +1,0 @@
-{
-  "test": {
-    "username": "postgres",
-    "password": 123456,
-    "database": "fun_project_test",
-    "host": "localhost",
-    "dialect": "postgres"
-  }
-}
