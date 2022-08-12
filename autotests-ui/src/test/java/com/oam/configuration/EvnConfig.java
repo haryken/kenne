@@ -27,7 +27,7 @@ public class EvnConfig {
         return GRID_HUB;
     }
 
-    private static final String BROWSER = System.getProperty("browser", "edge");
+    private static final String BROWSER = System.getProperty("browser", "chromeHeadless");
 
     /**
      * Get Browser type to run the test
